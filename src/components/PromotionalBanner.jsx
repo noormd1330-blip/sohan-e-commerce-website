@@ -1,10 +1,11 @@
-
-import Banner from '../images/Banner.png'
-
 const PromotionalBanner = () => {
   return (
     <section className='w-full'>
-      <img className='aspect-[16/7] w-full cursor-pointer rounded-2xl object-cover' src={Banner} alt="Featured collection promotion" />
+      <img 
+        className='w-full h-auto rounded-2xl object-contain' 
+        src="/Banner.png" 
+        alt="Featured collection promotion" 
+      />
     </section>
   )
 }
